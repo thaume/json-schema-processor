@@ -1,10 +1,10 @@
 {
   "name": "json-schema-processor",
   "description": "Mocking for the Limbo POC",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/locomotive.git"
+    "url": "http://github.com/thaume/json-schema-processor.git"
   },
   "keywords": [
     "json-schema",
