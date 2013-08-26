@@ -47,7 +47,7 @@ module.exports = function(rawSON) {
           if(list[index].fixture) {
             var dataArgs = list[index].fixture.type.split('.');
             dataArgs.push(list[index].fixture.params);
-            tmp[index] = createData(dataArgs);
+            tmp[index] = createData(dataArgs).toString();
           } else {
             console.log("ERROR, there is a problem with the definition of your fixture");
           }
