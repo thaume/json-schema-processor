@@ -1,0 +1,22 @@
+{
+  "name": "json-schema-processor",
+  "description": "Mocking for the Limbo POC",
+  "version": "0.0.5",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/locomotive.git"
+  },
+  "keywords": [
+    "json-schema",
+    "data-processor",
+    "faker"
+  ],
+  "dependencies": {
+    "Faker": "~0.5.11",
+    "underscore": "~1.5.1"
+  },
+  "main": "index",
+  "scripts": {
+    "prepublish": "npm prune"
+  }
+}
